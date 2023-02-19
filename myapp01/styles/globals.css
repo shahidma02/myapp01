@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html{
+  scroll-behavior: smooth;
+  font-family: 'Raleway', sans-serif;
+}
+
+.custom-img{
+  background-image: url(https://images.unsplash.com/photo-1492691527719-9d1e07e534b4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80);
+}
+.custom-img2{
+  background-image: url(https://images.unsplash.com/photo-1506260408121-e353d10b87c7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NjZ8fG5hdHVyZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60);
+}
+
+.inputss{
+ @apply w-full border shadow-lg px-4 py-2 h-8 my-2  rounded-md;
+}
+
+.labelss{
+  @apply text-xs font-bold;
+}
+.featured_courses{
+  @apply border-2 bg-white text-center px-2 pt-2 rounded-lg pb-24 shadow-lg;
+}
